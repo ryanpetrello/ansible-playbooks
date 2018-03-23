@@ -1,0 +1,6 @@
+---
+- hosts: all
+  gather_facts: no
+  tasks:
+    - debug: msg="{{ item}}"
+      with_sequence: count=100000
