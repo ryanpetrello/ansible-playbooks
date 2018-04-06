@@ -1,0 +1,6 @@
+---
+
+- hosts: all
+  gather_facts: false
+  tasks:
+    - template: src=lines.j2 dest=/tmp/multiline
