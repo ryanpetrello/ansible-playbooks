@@ -1,0 +1,2 @@
+- src: git@github.com:ryanpetrello/tower.git
+  scm: git
